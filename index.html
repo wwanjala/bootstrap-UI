@@ -1,0 +1,570 @@
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/all.min.css">
+  <link rel="stylesheet" href="/fonts/all.css">
+  <link rel="stylesheet" href="/js/index.js">
+  <link rel="stylesheet" href="/css/all.css">
+  <link rel="stylesheet" href="/js/all.js">
+  <script src="https://kit.fontawesome.com/a2eb99e8ff.js" crossorigin="anonymous"></script>
+
+  <title>Bootstrap</title>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#"><img src="images/logo.png" class="m-r-sm"> Notebook</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ol class="navbar-nav me-auto mb-2 mb-lg-0 active">
+          <li class="nav-item activity">
+            <a class="nav-link active" aria-current="page" href="#"><i class="far fa-building"></i> Activity </a>
+          </li>
+
+        </ol>
+
+
+        <ul class="navbar-nav">
+          <i class="fas fa-long-arrow-alt-up bg-success arroww mx-5"></i>
+          <i class="far fa-bell mt-2"></i>
+          <i class="fas fa-search mt-2"></i>
+          <img class="img-responsive img-rounded " src="/images/avatar.jpg" alt="mypic"
+            class="d-inline-block align-top" />
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              John.Smith
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Notifications</a></li>
+              <li><a class="dropdown-item" href="#">Help</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+  <br>
+
+  <!-- sidebar menu -->
+
+  <section class="sidemenu">
+    <div class="row ">
+      <div class="col-md-2 ">
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item ">
+
+            <div class="project">
+              <button class=" mt-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+            </div>
+            </button>
+
+            <h2 class="accordion-header" id="headingOne">
+
+
+              <button id="work1" class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <i class="fa fa-dashboard icon bg-default mx-3"> <b class="bg-danger"></b> </i>
+                Workset
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+<ul>
+                <li class="list-group-item action1 wolos"><a href="index.html" class="list-group-item-action action1"
+                  data-toggle="modal" data-target="#Table"><i
+                    class="mx-3 fas fa-angle-right text-default "></i>Dashboard v1</a></li>
+              <li class="list-group-item wolos2 action1"><a href="#" class="list-group-item-action action1"><i
+                    class="mx-3 fas fa-angle-right text-default "></i> Dashboard v2</a></li>
+            </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" id="work2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fas fa-columns icon mx-3"> <b class="bg-warning"></b> </i>
+                Layouts
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+
+                <ul class="list-goup list-group-flush ">
+                  <li class="list-group-item wolos action1"><a href="#" class="list-group-item-action ">
+                  <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Color option</a></li>
+                  <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Right nav</a></li>
+                  <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Hbox layout</a></li>
+                  <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Boxed layout</a></li>
+                  <li class="list-group-item wolos2 action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Fluid layout</a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" id="work3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="fas fa-flask icon mx-3"> <b class="bg-success"></b> </i>
+                UI kit
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+
+                <ul class="list-goup list-group-flush">
+                  <li class="list-group-item wolos action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Buttons</a></li>
+                  <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Icons </a><span
+                      class="badge bg-info rounded-pill ms-5">369</span></li>
+                  <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Grid</a></li>
+                  <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Widgets </a><span
+                      class="badge bg-secondary rounded-pill ms-4">8</span></li>
+                  <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Components</a></li>
+                  <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>list-goup</a></li>
+                  <li class="list-group-item action1"><a href="table.html" class="list-group-item-action action1"
+                      data-toggle="modal" data-target="#Table"><i
+                        class="mx-3 fas fa-angle-right text-default "></i>Table</a></li>
+                  <li class="list-group-item wolos2 action1"><a href="#" class="list-group-item-action action1"><i
+                        class="mx-3 fas fa-angle-right text-default "></i> Form</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" id="work4" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+              <i class="fas fa-file-alt icon mx-3 "> <b class="bg-primary"></b> </i>
+              Pages
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+              <ul class="list-goup list-group-flush ">
+                <li class="list-group-item wolos action1"><a href="#" class="list-group-item-action action1"><i
+                      class="mx-3 fas fa-angle-right text-default "></i>Gallery</a></li>
+                <li class="list-group-item action1"><a href="profile.html" class="list-group-item-action action1"><i
+                      class="mx-3 fas fa-angle-right text-default "></i>Profile</a></li>
+                <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                      class="mx-3 fas fa-angle-right text-default "></i>Invoice</a></li>
+                <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                      class="mx-3 fas fa-angle-right text-default "></i>Intro</a></li>
+                <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                      class="mx-3 fas fa-angle-right text-default "></i>Master</a></li>
+                <li class="list-group-item action1"><a href="map.html" class="list-group-item-action action1"><i
+                      class="mx-3 fas fa-angle-right text-default "></i>Google map</a></li>
+                <li class="list-group-item action1"><a href="#" class="list-group-item-action action1"><i
+                      class="mx-3 fas fa-angle-right text-default "></i>Vector map</a></li>
+                <li class="list-group-item wolos2 action1"><a href="#" class="list-group-item-action action1">
+                    <i class="mx-3 fas fa-angle-right text-default "></i>Form</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+
+
+
+      <div class="col-md-6">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active"><i class="fas fa-home"></i>Home</li>
+            <li class="breadcrumb-item active" aria-current="page">workset</li>
+          </ol>
+        </nav>
+        <div class="">Workset</div>
+        <div class=""><small> welcome back, Noteman </small></div>
+
+        <table class="table  table-bordered cont1">
+          <tr>
+            <td class="col-sm-3 table9 ">
+              <span class="fa-stack fa-1x pull-left m-r-sm "> <i class="fa fa-circle fa-stack-2x text-info">
+
+                </i> <i class="fas fa-male fa-stack-1x text-white"></i> </span>
+              </i><strong> 54,9393</strong> <br><strong class="ms-4 text-muted"> NEW ROBOTS</strong>
+            </td>
+
+            <td class="col-sm-3 table9 table91">
+              <span class="fa-stack fa-1x pull-left m-r-sm"> <i class="fa fa-circle fa-stack-2x text-warning">
+
+                </i> <i class="fas fa-bug fa-stack-1x text-white"></i> </span><strong>64,545</strong> <br>
+                <strong class="ms-4 text-muted"> BUGS INTRUDED</strong>
+            </td>
+            <td class="col-sm-3 table9">
+              <span class="fa-stack fa-1x pull-left m-r-sm"> <i class="fa fa-circle fa-stack-2x text-danger">
+
+                </i> <i class="fas fa-fire-extinguisher fa-stack-1x text-white"></i> </span><strong>2569</strong>
+              <br><strong class="ms-4 text-muted"> EXTINGIUSHERS READY</strong>
+            </td>
+            <td class="col-sm-3 table9 table91"> <span class="fa-stack fa-1x pull-left m-r-sm"> <i
+                  class="fa fa-circle fa-stack-2x text-secondary">
+
+                </i> <i class="far fa-clock fa-stack-1x text-white"></i> </span><strong>31:50 </strong><br><strong class="ms-4 text-muted"> LEFT TO EXIT</strong>
+            </td>
+          </tr>
+
+        </table>
+
+
+        <table class="tables table  table-bordered table-striped">
+          <tr>
+            <th colspan="4">Statistics</th>
+          </tr>
+          <tr>
+
+            <td colspan="4">
+              <div id="containers" style="width: 75%; height:200px;"></div>
+              <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                  const chart = Highcharts.chart('containers', {
+                    chart: {
+                      type: 'bar'
+                    },
+
+                    xAxis: {
+                      categories: ['Apples', 'Bananas', 'Oranges']
+                    },
+                    yAxis: {
+                      title: {
+                        text: 'Fruit eaten'
+                      }
+                    },
+                    series: [{
+                      name: 'Jane',
+                      data: [1, 0, 4]
+                    }, {
+                      name: 'John',
+                      data: [5, 7, 3]
+                    }]
+                  });
+                });
+              </script>
+
+            </td>
+          </tr>
+          <tr>
+            <td><strong>5,869</strong><br> <small>Orders</small></td>
+            <td><strong>21,230</strong><br> <small>Items</small></td>
+            <td><strong>5,869</strong><br> <small>orders</small></td>
+            <td><strong>7,230</strong><br> <small>Customers</small></td>
+          </tr>
+        </table>
+
+        <section>
+          <div class="">
+            Todos
+          </div>
+          <table class="table table-bordered ">
+            <tr>
+              <td>
+                <i class="fas fa-sort text-secondary p-2"></i>
+                <input type="checkbox"> <small class="p-2">Browser compatibility <i
+                    class="fas fa-times text-muted "></i></small>
+              </td>
+            </tr>
+          </table>
+
+          <table class="table table-bordered">
+            <tr>
+              <td>
+                <i class="fas fa-sort text-secondary p-2"></i>
+                <input type="checkbox"> <small class="p-2">Looking for more example template </small><i
+                  class="fas fa-times text-muted"></i>
+              </td>
+            </tr>
+          </table>
+
+          <table class="table table-bordered">
+            <tr>
+              <td>
+                <i class="fas fa-sort text-secondary p-2"></i>
+                <input type="checkbox"> <small class="p-2">Customizing components <i
+                    class="fas fa-times text-muted "></i></small>
+              </td>
+            </tr>
+          </table>
+
+
+          <table class="table table-bordered">
+            <tr>
+              <td>
+                <i class="fas fa-sort text-secondary p-2"></i>
+                <input type="checkbox"> <small class="p-2">The fastest way to get started <i
+                    class="fas fa-times text-muted "></i></small>
+              </td>
+            </tr>
+          </table>
+
+          <table class="table table-bordered">
+            <tr>
+              <td>
+                <i class="fas fa-sort text-secondary p-2"></i>
+                <input type="checkbox"> <small class="p-2">HTML5 doc type required <i
+                    class="fas fa-times text-muted "></i></small>
+              </td>
+            </tr>
+          </table>
+
+          <table class="table table-bordered">
+            <tr>
+              <td class="close ">
+                <i class="fas fa-sort text-secondary p-2"></i>
+                <input type="checkbox"> <small class="p-2">LessCSS compiling <i
+                    class="fas fa-times text-muted"></i></small></i>
+              </td>
+            </tr>
+          </table>
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-secondary " aria-current="page">Timeline</a>
+            <a href="#" class="btn btn-outline-secondary">Activity</a>
+
+          </div>
+          <br>
+          <br>
+          <div class="">
+            <p>
+
+              <span class="fa-stack pull-left m-l-xs"> <i class="fa fa-circle text-info fa-stack-2x">
+
+                </i> <i class="fa fa-play-circle text-white fa-stack-1x"></i> </span><strong class="ms-2">John
+                smith</strong> <small>
+                shared a video to you 24 minutes ago</small> <br> <small class="ms-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam.</small>
+            </p>
+          </div>
+          <br>
+
+          <div class="ms-5">
+            <strong>John smith </strong><small> 26 minutes ago <br>
+              Morbi id neque quam. Aliquam.</small>
+          </div>
+          <br>
+          <div class="ms-5">
+            <img src="/images/avatar.jpg" alt="logo">
+
+            <small>
+              <strong> Mike</strong> 26 minutes ago <p class="ms-4"> Good idea.</p>
+            </small>
+          </div>
+          <br>
+          <div class="">
+            <span class="fa-stack pull-left m-l-xs"> <i class="fa fa-circle text-danger fa-stack-2x"></i> <i
+                class="fa fa-file-o text-white fa-stack-1x"></i> </span>
+            <strong class="ms-2"> John Doe </strong><small> 1 hour ago <p class="ms-5">
+                Lorem ipsum dolor sit amet, consecteter adipiscing elit.</p></small>
+          </div>
+
+          <br>
+          <div class=""><span class="fa-stack pull-left m-l-xs"> <i class="fa fa-circle text-success fa-stack-2x"></i>
+              <i class="fa fa-check text-white fa-stack-1x"></i> </span>
+            <strong> Jonathan</strong><small> completed a task 1 hour ago <br>
+              Consecteter adipiscing elit.</small>
+          </div>
+
+          <br>
+          <a href="#" class="btn btn-default btn-sm m-b"><i class="fa fa-plus icon-muted"></i> more</a>
+        </section>
+
+
+
+
+
+
+
+      </div>
+      <div class="cont2 col-md-4">
+        <table class="table table-bordered">
+          <tr>
+            <th colspan="3"><small>Data graph</small></th>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <div id="containerss" style=" height:150px;"></div>
+
+              <script>
+ document.addEventListener('DOMContentLoaded', function () {
+                  const chart = Highcharts.chart('containerss', {
+                    chart: {
+                      type: 'bar'
+                    },
+
+                    xAxis: {
+                      categories: ['Apples', 'Bananas', 'Oranges']
+                    },
+                    yAxis: {
+                      title: {
+                        text: 'Fruit eaten'
+                      }
+                    },
+                    series: [{
+                      name: 'Jane',
+                      data: [1, 0, 4]
+                    }, {
+                      name: 'John',
+                      data: [5, 7, 3]
+                    }]
+                  });
+                });
+              </script>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="3"><small>total:</small><br>$2500.00</td>
+          </tr>
+          <tr>
+            <td><small>Market</small><br>$1500.00</td>
+            <td><small>Referral</small><br>$600.00</td>
+            <td><small>Affiliate</small><br>$400.00</td>
+          </tr>
+        </table>
+
+        <div id="calendar" class="bg-success m-l-n-xxs m-r-n-xxs">
+          <div class="calendar" id="cal_4fv">
+            <table class="table header">
+              <tbody>
+                <tr></tr>
+              </tbody>
+
+              <td><i class="fa fa-arrow-left"></i></td>
+              <td colspan="5" class="year span6">
+
+                <div class="visualmonthyear">June 2021</div>
+              </td>
+              <td><i class="fa fa-arrow-right"></i></td>
+            </table>
+            <table class="daysmonth table table">
+              <tbody>
+                <tr class="week_days">
+                  <td class="first">S</td>
+                  <td>M</td>
+                  <td>T</td>
+                  <td>W</td>
+                  <td>T</td>
+                  <td>F</td>
+                  <td class="last">S</td>
+                </tr>
+                <tr>
+                  <td class="invalid first"></td>
+                  <td class="invalid"></td>
+                  <td id="cal_4fv_1_6_2021"><a>1</a></td>
+                  <td id="cal_4fv_2_6_2021"><a>2</a></td>
+                  <td id="cal_4fv_3_6_2021"><a>3</a></td>
+                  <td id="cal_4fv_4_6_2021"><a>4</a></td>
+                  <td id="cal_4fv_5_6_2021" class="last event event_popover"><a data-original-title="Meet a friend"
+                      data-trigger="manual" class="manual_popover" rel="popover" data-content="Contents here">5</a><span
+                      style="background: rgb(251, 107, 91);"></span></td>
+                </tr>
+                <tr>
+                  <td id="cal_4fv_6_6_2021" class="first"><a>6</a></td>
+                  <td id="cal_4fv_7_6_2021"><a>7</a></td>
+                  <td id="cal_4fv_8_6_2021" class="event event_popover"><a data-original-title="Kick off meeting!"
+                      data-trigger="manual" class="manual_popover" rel="popover"
+                      data-content="Have a kick off meeting with .inc company">8</a><span
+                      style="background: rgb(255, 186, 77);"></span></td>
+                  <td id="cal_4fv_9_6_2021"><a>9</a></td>
+                  <td id="cal_4fv_10_6_2021"><a>10</a></td>
+                  <td id="cal_4fv_11_6_2021"><a>11</a></td>
+                  <td id="cal_4fv_12_6_2021" class="last"><a>12</a></td>
+                </tr>
+                <tr>
+                  <td id="cal_4fv_13_6_2021" class="first"><a>13</a></td>
+                  <td id="cal_4fv_14_6_2021"><a>14</a></td>
+                  <td id="cal_4fv_15_6_2021"><a>15</a></td>
+                  <td id="cal_4fv_16_6_2021"><a>16</a></td>
+                  <td id="cal_4fv_17_6_2021"><a>17</a></td>
+                  <td id="cal_4fv_18_6_2021" class="event event_popover"><a data-original-title="Milestone release"
+                      data-trigger="manual" class="manual_popover" rel="popover"
+                      data-content="Contents here">18</a><span style="background: rgb(255, 186, 77);"></span></td>
+                  <td id="cal_4fv_19_6_2021" class="last event event_tooltip"><a data-original-title="A link"
+                      href="https://github.com/blog/category/drinkup" rel="tooltip">19</a><span
+                      style="background: rgb(204, 204, 204);"></span></td>
+                </tr>
+                <tr>
+                  <td id="cal_4fv_20_6_2021" class="first"><a>20</a></td>
+                  <td id="cal_4fv_21_6_2021"><a>21</a></td>
+                  <td id="cal_4fv_22_6_2021"><a>22</a></td>
+                  <td id="cal_4fv_23_6_2021"><a>23</a></td>
+                  <td id="cal_4fv_24_6_2021"><a>24</a></td>
+                  <td id="cal_4fv_25_6_2021"><a>25</a></td>
+                  <td id="cal_4fv_26_6_2021" class="last"><a>26</a></td>
+                </tr>
+                <tr>
+                  <td id="cal_4fv_27_6_2021" class="first"><a>27</a></td>
+                  <td id="cal_4fv_28_6_2021"><a>28</a></td>
+                  <td id="cal_4fv_29_6_2021"><a>29</a></td>
+                  <td id="cal_4fv_30_6_2021"><a>30</a></td>
+                  <td class="invalid"></td>
+                  <td class="invalid"></td>
+                  <td class="invalid last"></td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+  <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+
+</body>
+
+</html>

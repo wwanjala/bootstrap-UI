@@ -1,0 +1,229 @@
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/fonts/all.css">
+    <link rel="stylesheet" href="/js/index.js">
+    <link rel="stylesheet" href="/js/all.js">
+    <link rel="stylesheet" href="/css/all.css">
+    <script src="https://kit.fontawesome.com/a2eb99e8ff.js" crossorigin="anonymous"></script>
+
+
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#"><img src="images/logo.png" class="m-r-sm">Notebook</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ol class="navbar-nav me-auto mb-2 mb-lg-0 active">
+                    <li class="nav-item activity ms-5">
+                        <a class="nav-link active " aria-current="page" href="#"><i class="far fa-building "></i>Activity</a>
+                    </li>
+                </ol>
+
+
+                <ul class="navbar-nav ">
+                    <i class="fas fa-long-arrow-alt-up bg-success arroww mx-5"></i>
+          <i class="far fa-bell mt-2"></i>
+          <i class="fas fa-search mt-2"></i>
+                    <img class="img-responsive img-rounded" src="/images/avatar.jpg" alt="mypic"
+                        class="d-inline-block align-top" />
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            John.Smith
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Notifications</a></li>
+                            <li><a class="dropdown-item" href="#">Help</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <!-- sidebar menu -->
+
+    <section class="">
+        <div class="row ">
+            <div class="col-md-2 ">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item ">
+
+                        <div class="project">
+                            <button class=" mt-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                        </div>
+                        </button>
+
+                        <h2 class="accordion-header" id="headingOne">
+
+
+                            <button class="accordion-button workset " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fa fa-dashboard icon mx-3 text-muted"> <b class="bg-danger"></b> </i>
+                                Workset
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+
+                                <ul>
+                                    <li class="list-group-item wolos"><a href="index.html" class="list-group-item-action "
+                                      data-toggle="modal" data-target="#Table"><i
+                                        class="mx-3 fas fa-angle-right text-muted "></i>Dashboard v1</a></li>
+                                  <li class="list-group-item wolos2 "><a href="#" class="list-group-item-action "><i
+                                        class="mx-3 fas fa-angle-right text-muted "></i> Dashboard v2</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed workset" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fas fa-columns icon mx-3 text-muted"> <b class="bg-warning"></b> </i>
+                                Layouts
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+
+                                <ul class="list-goup list-group-flush ">
+                                    <li class="list-group-item wolos "><a href="#" class="list-group-item-action "><i class="text-muted mx-3 fas fa-angle-right text-default "></i>Color option</a></li>
+                                    <li class="list-group-item "><a href="#" class="list-group-item-action "><i class="text-muted mx-3 fas fa-angle-right text-default "></i>Right nav</a></li>
+                                    <li class="list-group-item "><a href="#" class="list-group-item-action "><i class="text-muted mx-3 fas fa-angle-right text-default "></i>Hbox layout</a></li>
+                                    <li class="list-group-item "><a href="#" class="list-group-item-action "><i class=" text-muted mx-3 fas fa-angle-right text-default "></i>Boxed layout</a></li>
+                                    <li class="list-group-item wolos2 "><a href="#" class="list-group-item-action "><i class=" text-muted mx-3 fas fa-angle-right text-default "></i>Fluid layout</a></li>
+                                    
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="fas fa-flask icon mx-3 text-muted"> <b class="bg-primary"></b> </i>
+                                UI kit
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+
+                                <ul class="list-goup list-group-flush">
+                                    <li class="list-group-item"><a href="#" class="list-group-item-action ">Buttons</a>
+                                    </li>
+                                    <li class="list-group-item"><a href="#" class="list-group-item-action">Icons
+                                        </a><span class="badge bg-primary rounded-pill">369</span></li>
+                                    <li class="list-group-item "><a href="#" class="list-group-item-action">Grid</a>
+                                    </li>
+                                    <li class="list-group-item"><a href="#" class="list-group-item-action">Widgets
+                                        </a><span class="badge bg-primary rounded-pill">8</span></li>
+                                    <li class="list-group-item"><a href="#"
+                                            class="list-group-item-action">Components</a></li>
+                                    <li class="list-group-item"><a href="#" class="list-group-item-action">list-goup</a>
+                                    </li>
+                                    <li class="list-group-item"><a href="table.html" class="list-group-item-action"
+                                            data-toggle="modal" data-target="#Table">Table</a></li>
+                                    <li class="list-group-item"><a href="#" class="list-group-item-action"> Form</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-file-text icon mx-3 text-muted"> <b class="bg-primary"></b> </i>
+                            Pages
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+
+                            <ul class="list-goup list-group-flush">
+                                <li class="list-group-item"><a href="#" class="list-group-item-action ">Gallery</a></li>
+                                <li class="list-group-item"><a href="profile.html"
+                                        class="list-group-item-action">Profile</a></li>
+                                <li class="list-group-item"><a href="#" class="list-group-item-action">Invoice</a></li>
+                                <li class="list-group-item"><a href="#" class="list-group-item-action">Intro</a></li>
+                                <li class="list-group-item"><a href="#" class="list-group-item-action">Master</a></li>
+                                <li class="list-group-item"><a href="map.html" class="list-group-item-action">Google
+                                        map</a></li>
+                                <li class="list-group-item"><a href="#" class="list-group-item-action">Vector map</a>
+                                </li>
+                                <li class="list-group-item"><a href="#" class="list-group-item-action">Form</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-10">
+
+                <div class="input-group mt-3">
+                    <div class="googles"><small>Google maps</small></div>
+                    <input  type="text" class="form-control" placeholder="Search" aria-label="Input group example"
+                        aria-describedby="btnGroupAddon" >
+                    <div class="input-group-text" id="btnGroupAddon">Go!</div>
+                </div>
+
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=2024&amp;height=600&amp;hl=en&amp;q=nairobi&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                            href="https://www.fridaynightfunkin.net/">FNF PC</a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            width: 100%;
+                            height: 1099px;
+                        }
+
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            width: 100%;
+                            height: 1099px;
+                        }
+
+                        .gmap_iframe {
+                            height: 1099px !important;
+                        }
+                    </style>
+                </div>
+            </div>

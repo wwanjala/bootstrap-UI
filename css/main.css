@@ -1,0 +1,170 @@
+html{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: transparent;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.breadcrumb{
+    color: #333333;
+    margin-top: 1rem;
+}
+ 
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none ;
+    margin-left: -3.2rem ;
+    margin-right: -1.2rem;
+}
+
+.project{
+    background: #89cc97;
+}
+
+.breadcrumb{
+    border-bottom: 1px solid #cfcfcf;
+    margin-right: -69%;
+    margin-left: -25px;
+}
+
+.fas{color: white;}
+
+.activity{
+    margin-left: 3rem !important;
+    padding: 0.2rem 0;
+    background: rgba(27, 27, 27, 0.973);
+}
+
+.cont1{
+    margin-top: 1rem;
+    width: 167% !important;
+}
+
+.cont2{
+    margin-top: 14rem;
+    padding-right: 1.7rem;
+}
+
+.table2{
+    margin-top: 5rem;
+}
+
+.responsives{
+    width: 200%; 
+}
+
+.breads{
+    margin-right: -110%;
+}
+
+.table4{
+   width: 95%;
+}
+
+.googles{
+    margin-right: 50rem;
+}
+
+.mapouter{
+    
+    margin: 0.5rem 0 0 -1.4rem;
+}
+
+.john{
+    border-bottom: 1px solid grey ;
+    margin-left: -1.4rem;
+    margin-right: -58rem;
+}
+
+.interaction{
+    margin-top: 3.6rem !important;
+}
+
+.table7{
+    color: white !important;
+}
+
+.table8{
+    padding-bottom: 3rem  !important;
+}
+
+.fa-search,
+.fa-bell{
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.fa-bell{
+    color: white;
+}
+
+.fa-home{
+    color: rgb(146, 144, 144);
+    margin:0 1rem;
+}
+
+.table9{
+    padding: 1.2rem !important;
+}
+
+.navbar{
+    height: 3rem !important;
+}
+
+.table91{
+    background-color: rgb(240, 235, 235) !important;
+}
+
+.tabs{
+    margin-left: 2r;
+}
+
+.fa-times{
+    margin-left: 25rem !important;
+}
+
+#work1,
+#work2,
+#work3,
+#work4{
+    color: white;
+    background-color: #41586e;
+    }
+
+.action1{
+    background-color: #2e3e4e;
+    color: white;
+} 
+
+.wolos{
+    margin-top: -1rem !important;
+}
+
+.wolos2{
+    margin-bottom: -2rem;
+}
+    
+.arroww{
+    margin-right: 47rem !important;
+    padding: 0.4rem;
+}
+
+.workset{
+    background-color: white!important;
+    color: black !important;
+}
